@@ -26,4 +26,6 @@ RUN apk add ansible
 
 RUN alias ll='ls -l'
 
+ADD etc/ /etc
+
 CMD ["/usr/bin/supervisord"]
